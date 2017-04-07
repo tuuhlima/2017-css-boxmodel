@@ -1,3 +1,32 @@
-p{
-    border: 2px dotted red;
+.message-box{
+    border: 2px solid #000;
+    width:200px;
+    height:40px;
+    border-radius:10px;
+    margin: 10px auto;
+    line-height: 30px;
+    padding-left:40px;
+    box-sizing:border-box;
+    background-position: 4px 2px;
+    background-repeat: no-repeat;   
+}
+
+.info{
+    background-color:blue;
+    border-color:lightblue;
+    background-image: url(images/info.png);
+}
+
+.sucess{
+    background-color: green;
+    border-color: lightgreen;
+    background-image: url(images/success.png);   
+}
+
+.warning{
+    background-image: url(images/warning.png);
+}
+
+.error{
+    background-image: url(images/error.png);
 }
